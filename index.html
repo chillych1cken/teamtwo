@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acoustic Harmony Duo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for a sophisticated look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark charcoal/black background */
+        }
+        .text-primary { color: #818cf8; /* Light purple/indigo for accent */ }
+        .bg-primary { background-color: #374151; /* Dark gray for cards */ }
+        .hover-lift { transition: transform 0.2s; }
+        .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(129, 140, 248, 0.2); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="p-4 bg-gray-900 shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Updated Header Title -->
+            <a href="#home" class="text-2xl font-bold tracking-widest text-primary">Harmony Guitars</a>
+            <nav class="space-x-4 hidden md:block">
+                <a href="#about" class="text-gray-300 hover:text-primary transition">Das Duo</a>
+                <a href="#repertoire" class="text-gray-300 hover:text-primary transition">Repertoire</a>
+                <a href="#media" class="text-gray-300 hover:text-primary transition">Hörproben</a>
+                <a href="#contact" class="text-white bg-primary py-2 px-4 rounded-lg hover-lift transition">Jetzt Buchen</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-[60vh] md:h-[80vh] flex items-center justify-center text-center bg-gray-800 bg-cover bg-center" 
+             style="background-image: url('https://placehold.co/1200x800/1f2937/FFFFFF?text=Professionelles+Duo-Foto+folgt');">
+        <div class="bg-black bg-opacity-60 p-8 rounded-xl shadow-2xl max-w-4xl mx-4">
+            <!-- Updated Headline -->
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">
+                Zwei Gitarren. Eine Emotion.
+            </h1>
+            <!-- Updated Subtext / Slogan -->
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 font-light">
+                Erleben Sie die einzigartige Fusion aus klassischer Tiefe und jazziger Eleganz für Ihr Event.
+            </p>
+            <a href="#contact" class="inline-block bg-primary text-white text-lg font-semibold py-3 px-8 rounded-lg hover-lift transition">
+                Ihren Auftritt jetzt anfragen
+            </a>
+        </div>
+    </section>
+
+    <!-- The Duo Section (About Us) -->
+    <section id="about" class="py-16 md:py-24 max-w-5xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-10 text-center text-white">Das Duo: Mehr als die Summe seiner Teile</h2>
+        
+        <div class="flex flex-col md:flex-row gap-12 items-start">
+            <!-- Updated Member 1 Content -->
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/300x400/4b5563/FFFFFF?text=Portrait+1" alt="Duo Member 1" class="rounded-xl shadow-lg w-full mb-4">
+                <h3 class="text-2xl font-semibold mb-2 text-primary">[Gitarrist 1 Name] – Die Präzision</h3>
+                <p class="text-gray-400">
+                    Ausgebildet an der [Ihrer Musikhochschule/Schule] ist [Gitarrist 1 Name] der Anker des Duos. Er spezialisiert sich auf minutiöse Arrangements und die technische Herausforderung, komplexe polyphone Strukturen der Klassik mit orchestraler Dichte auf zwei Instrumente zu übertragen.
+                </p>
+            </div>
+            
+            <!-- Updated Member 2 Content -->
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/300x400/4b5563/FFFFFF?text=Portrait+2" alt="Duo Member 2" class="rounded-xl shadow-lg w-full mb-4">
+                <h3 class="text-2xl font-semibold mb-2 text-primary">[Gitarrist 2 Name] – Die Improvisation</h3>
+                <p class="text-gray-400">
+                    Mit einem breiten Fundament im modernen Jazz und Latin sorgt [Gitarrist 2 Name] für die klangliche Tiefe und die harmonische Finesse. Seine Expertise in der Improvisation verleiht jedem Stück eine spontane, lebendige Note und garantiert, dass kein Auftritt wie der andere ist.
+                </p>
+            </div>
+        </div>
+        
+        <p class="mt-10 text-center text-lg text-gray-300 italic">
+            "Unsere Musik ist ein Dialog. Ein Wechselspiel aus Perfektion und spielerischer Freiheit."
+        </p>
+    </section>
+    
+    <!-- Repertoire Section -->
+    <section id="repertoire" class="bg-gray-900 py-16 md:py-24 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-primary">Ihr perfekter Soundtrack: Unser stilvolles Repertoire</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Repertoire Item 1 (Classical Focus) -->
+                <div class="bg-primary p-6 rounded-xl hover-lift shadow-lg">
+                    <svg class="w-10 h-10 mb-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19h12M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Klassik & Spanische Akzente</h3>
+                    <p class="text-gray-200">
+                        Elegante Interpretationen von Bach, Albéniz und de Falla. Ideal für Taufen, Hochzeitszeremonien und Empfänge.
+                    </p>
+                </div>
+                
+                <!-- Repertoire Item 2 (Jazz Focus) -->
+                <div class="bg-primary p-6 rounded-xl hover-lift shadow-lg">
+                    <svg class="w-10 h-10 mb-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132c.28-.187.28-.684 0-.87z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Jazz & Bossa Nova Standards</h3>
+                    <p class="text-gray-200">
+                        Von sanftem Bossa Nova (Jobim) bis hin zu virtuosem Swing. Die perfekte Lounge-Musik für Dinner und Business-Events.
+                    </p>
+                </div>
+                
+                <!-- Repertoire Item 3 (Modern Focus) -->
+                <div class="bg-primary p-6 rounded-xl hover-lift shadow-lg">
+                    <svg class="w-10 h-10 mb-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V9a1 1 0 011-1h2m-3 0a1 1 0 011 1v1m-1-1h1m-1 0a1 1 0 011-1h1m-1 0a1 1 0 011 1v1"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Arrangements & Wunschlieder</h3>
+                    <p class="text-gray-200">
+                        Gerne arrangieren wir Ihren Lieblings-Pop-Song oder Film-Titel neu für zwei Gitarren. Für die ganz persönliche Note.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Media Section (Addressing the missing content head-on) -->
+    <section id="media" class="py-16 md:py-24 max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6 text-white">Exklusive Hörproben in Arbeit</h2>
+        <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+            Wir produzieren aktuell unsere ersten Studio-Demos, um Ihnen höchste Audioqualität zu garantieren. Sehen Sie hier in Kürze die Ergebnisse!
+        </p>
+        
+        <div class="bg-gray-800 p-8 rounded-xl shadow-xl border-2 border-primary border-dashed max-w-2xl mx-auto">
+            <h3 class="text-2xl font-semibold mb-4 text-primary">Demo-Player Platzhalter</h3>
+            <p class="text-gray-400 mb-6">
+                Folgen Sie uns auf Instagram oder abonnieren Sie unseren Newsletter, um das Release nicht zu verpassen.
+            </p>
+            <div class="h-16 bg-gray-900 rounded-lg flex items-center justify-center text-lg text-gray-600">
+                [Audio Player/YouTube Link Placeholder]
+            </div>
+        </div>
+        
+        <div class="mt-12">
+            <p class="text-lg text-gray-300 mb-6">Möchten Sie uns live erleben, bevor die Demos online sind?</p>
+            <a href="#contact" class="inline-block bg-primary text-white text-lg font-semibold py-3 px-8 rounded-lg hover-lift transition">
+                Kontaktieren Sie uns für eine Live-Demo
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="bg-gray-900 py-16 md:py-24 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-bold mb-10 text-center text-white">Jetzt buchen: Ihr unvergesslicher Event-Sound</h2>
+            
+            <form class="bg-primary p-8 rounded-xl shadow-2xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Ihr Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Ihre E-Mail-Adresse</label>
+                        <input type="email" id="email" name="email" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-primary focus:border-primary">
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="event" class="block text-sm font-medium text-gray-300 mb-1">Art des Events (z.B. Hochzeit, Firmenfeier)</label>
+                    <input type="text" id="event" name="event" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-primary focus:border-primary">
+                </div>
+                
+                <div class="mb-6">
+                    <label for="details" class="block text-sm font-medium text-gray-300 mb-1">Details & Datumswunsch</label>
+                    <textarea id="details" name="details" rows="4" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-primary focus:border-primary"></textarea>
+                </div>
+                
+                <div class="text-center">
+                    <button type="submit" class="bg-primary text-white text-lg font-bold py-3 px-12 rounded-lg hover-lift hover:bg-indigo-600 transition w-full">
+                        Unverbindliche Anfrage senden
+                    </button>
+                </div>
+                <p class="text-xs text-gray-400 mt-4 text-center">Wir melden uns innerhalb von 24 Stunden bei Ihnen zurück.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8">
+        <div class="max-w-7xl mx-auto text-center text-sm text-gray-500">
+            &copy; 2025 Harmony Guitars. | Impressum | Datenschutz
+        </div>
+    </footer>
+
+</body>
+</html>
